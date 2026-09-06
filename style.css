@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background: #f5f7fb;
+    color: #222;
+}
+
+header {
+    background: #111827;
+    color: white;
+    padding: 20px 8%;
+    position: sticky;
+    top: 0;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+nav ul {
+    display: flex;
+    gap: 25px;
+    list-style: none;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 80px 10%;
+}
+
+#home {
+    min-height: 90vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    background: #eaf2ff;
+}
+
+#home h1 {
+    font-size: 55px;
+    color: #111827;
+}
+
+#home h2 {
+    margin: 15px 0;
+}
+
+#home a {
+    margin-top: 20px;
+    padding: 12px 25px;
+    background: #2563eb;
+    color: white;
+    text-decoration: none;
+    border-radius: 8px;
+}
+
+section h2 {
+    font-size: 32px;
+    margin-bottom: 25px;
+}
+
+#skills {
+    background: white;
+}
+
+#skills div {
+    background: #f3f4f6;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 10px;
+}
+
+.project {
+    background: white;
+    padding: 25px;
+    margin: 20px 0;
+    border-radius: 12px;
+    box-shadow: 0 5px 20px rgba(0,0,0,0.08);
+}
+
+.project h3 {
+    color: #2563eb;
+}
+
+#contact {
+    background: #111827;
+    color: white;
+}
+
+#contact a {
+    color: #60a5fa;
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #030712;
+    color: white;
+}
+
+@media (max-width: 768px) {
+
+    nav {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    nav ul {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    #home h1 {
+        font-size: 38px;
+    }
+}
